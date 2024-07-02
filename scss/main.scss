@@ -4,7 +4,7 @@
 @import "./base/snippets"; //сниппеты
 @import "./base/vars"; // определили переменные
 @import "./base/mixins"; // подключаем миксины
-
 @import "./base/base"; //основные стили для страницы
 
 // Blocks - подключаем все разделы по одному
+@import "./blocks/grid-area"; //

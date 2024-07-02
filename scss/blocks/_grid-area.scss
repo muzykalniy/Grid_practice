@@ -1,0 +1,46 @@
+.card-demo {
+    padding: 20px 30px;
+    background-color: darkkhaki;
+    font-family: $font-main;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.cards-grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 260px);
+    grid-template-rows: repeat(4, 180px);
+    grid-template-areas:
+        "wide1 wide1 product1 product2"
+        "wide2 wide2 product1 product2"
+        "product3 product4 wide3 wide3"
+        "product3 product4 wide4 wide4";
+}
+
+.sale-1 {
+    grid-area: wide1;
+}
+.sale-2 {
+    grid-area: wide2;
+}
+.product-1 {
+    grid-area: product1;
+}
+
+.product-2 {
+    grid-area: product2;
+}
+.sale-3 {
+    grid-area: wide3;
+}
+.sale-4 {
+    grid-area: wide4;
+}
+.product-3 {
+    grid-area: product3;
+}
+.product-4 {
+    grid-area: product4;
+}

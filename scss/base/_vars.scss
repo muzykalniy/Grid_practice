@@ -19,21 +19,21 @@ font-family: ;
 
 // Fonts определяем несколько переменных для шрифтов
 
-$font-main:; // основной шрифт
-$font-accent:; //для заголовков
-$font-secondary:; //второстепенный шрифт
+$font-main: "Montserrat", sans-serif; // основной шрифт
+$font-accent: "Montserrat", sans-serif; //для заголовков
+$font-secondary: "Montserrat", sans-serif; //второстепенный шрифт
 
 // Colors - определяем какие цвета присутствуют на макете
 
-$theme:; //цвет темы
-$accent:; //акцентный цвет, каким выполнены все заголовки
-$color-main:; // создаем для последовательности цветов
-$footer-bg:; // смотрим цвет у футера
-$placeholder:; // для указаний внутри формы
-$muted:;
+$theme: #fff; //цвет темы
+$accent: black; //акцентный цвет, каким выполнены все заголовки
+$color-main: black; // создаем для последовательности цветов
+// $footer-bg:; // смотрим цвет у футера
+// $placeholder:; // для указаний внутри формы
+// $muted:;
 
 // Container
-$container-width:;
+$container-width: 1230px;
 $container-padding: 15px;
 
 // Media
