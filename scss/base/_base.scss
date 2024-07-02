@@ -1,0 +1,41 @@
+@import url(""); // шрифт
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-main;
+    background-color: $theme;
+    color: $color-main;
+    font-size: 16px; //стандарт шрифта в браузере
+} /*смотрим что он на странице базовый и его указываем в боди */
+
+.container {
+    margin: 0 auto;
+    padding: 0 $container-padding;
+    max-width: $container-width; //ширина контейнера 1240пкс но из-за того паддингов по бокам мы добавляем по 15пкс с каждой стороны, делаем с макс, чтобы сжимался
+}
+// .container-right {
+//     padding-left: calc(
+//         (100% - $container-width) / 2 + $container-padding
+//     ); // для контейнера, который отклоняется в сторону вправо до конца
+// }
+
+// .container-left {
+//     padding-right: calc(
+//         (100% - $container-width) / 2 + $container-padding
+//     ); // для контейнера, который отклоняется в сторону влево до конца
+// }
+
+.none {
+    display: none !important;
+}
+
+a {
+    color: $color-main;
+    transition: color 0.2s ease-in; //применили к свойству color
+    &:hover {
+        color: $accent;
+    } //&символ наследования принадлежности
+}

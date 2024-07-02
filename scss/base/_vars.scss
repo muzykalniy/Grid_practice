@@ -1,0 +1,42 @@
+/* Подсказка для заведения шрифтов в переменные
+
+font-family: ;
+
+*/
+
+/* Подсказка адаптации
+
+•	320px — 480px: Mobile devices
+
+•	481px — 768px: iPads, Tablets
+
+•	769px — 1024px: Small screens, laptops
+
+•	1025px — 1200px: Desktops, large screens
+
+•	1201px and more — Extra large screens, TV
+*/
+
+// Fonts определяем несколько переменных для шрифтов
+
+$font-main:; // основной шрифт
+$font-accent:; //для заголовков
+$font-secondary:; //второстепенный шрифт
+
+// Colors - определяем какие цвета присутствуют на макете
+
+$theme:; //цвет темы
+$accent:; //акцентный цвет, каким выполнены все заголовки
+$color-main:; // создаем для последовательности цветов
+$footer-bg:; // смотрим цвет у футера
+$placeholder:; // для указаний внутри формы
+$muted:;
+
+// Container
+$container-width:;
+$container-padding: 15px;
+
+// Media
+
+$tablet: 768px; // переменная для точки перелома планшет
+$mobile: 480px; // переменная для точки перелома мобилка
